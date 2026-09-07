@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top Up Koins Game</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#111827,#312e81);color:#fff;min-height:100vh}.container{max-width:720px;margin:auto;padding:22px}.hero{text-align:center;padding:30px 20px;border-radius:24px;background:#ffffff12;box-shadow:0 15px 45px #0005}.logo{font-size:52px}.hero h1{margin:8px 0;font-size:32px}.hero p{color:#dbe4ff}.card{margin-top:18px;padding:22px;border-radius:20px;background:#111827e8;border:1px solid #ffffff20;box-shadow:0 12px 30px #0004}h2{margin-top:0}.price{display:flex;justify-content:space-between;align-items:center;padding:15px;margin:10px 0;border-radius:14px;background:#ffffff0d;border:1px solid #ffffff15}.price strong{font-size:18px}.price span{font-weight:bold}.pay{font-size:24px;font-weight:800}.copy{margin-top:10px;width:100%;padding:13px;border:0;border-radius:12px;background:#6366f1;color:#fff;font-weight:bold;cursor:pointer}.info{line-height:1.7;color:#d7def4}.notice{padding:14px;border-radius:12px;background:#1e293b;margin-top:12px;color:#cbd5e1}footer{text-align:center;color:#aeb9d4;font-size:13px;padding:25px 0}
+</style>
+</head>
+<body>
+<div class="container">
+<section class="hero"><div class="logo">🪙</div><h1>TOP UP KOINS GAME</h1><p>Promo koins cepat & praktis</p></section>
+
+<section class="card"><h2>🔥 Harga Promo</h2>
+<div class="price"><strong>Promo 200M CHIP</strong><span>Rp14.000</span></div>
+<div class="price"><strong>Promo 500M CHIP</strong><span>Rp29.000</span></div>
+<div class="price"><strong>Promo 1B CHIP</strong><span>Rp59.000</span></div></section>
+
+<section class="card"><h2>💳 Metode Pembayaran</h2><p class="info">Pembayaran melalui <b>GoPay</b></p><div class="pay">085809833192</div>
+<button class="copy" onclick="copyNumber()">📋 Salin Nomor GoPay</button><div id="copied" class="notice" style="display:none">Nomor berhasil disalin.</div></section>
+
+<section class="card"><h2>📦 Info Bongkar</h2>
+<div class="price"><strong>Bongkar 1B–10B</strong><span>60K</span></div>
+<div class="price"><strong>Bongkar 10B–50B</strong><span>70K</span></div></section>
+
+<section class="card"><h2>🎮 Cara Order</h2><div class="info">
+<p><b>1.</b> Kirim ke ID: <b>33919751</b></p>
+<p><b>2.</b> Lakukan pembayaran ke GoPay <b>085809833192</b>.</p>
+<p><b>3.</b> Setelah pembayaran, kirim bukti transaksi melalui WhatsApp.</p>
+<p><b>4.</b> Sebutkan <b>nama pengirim</b> agar pesanan mudah diverifikasi.</p></div>
+<div class="notice">⚠️ Pastikan nomor tujuan dan detail pesanan sudah benar sebelum melakukan pembayaran.</div></section>
+
+<section class="card"><h2>📱 Konfirmasi</h2><p class="info">WhatsApp: <b>085809833192</b></p><button class="copy" onclick="openWA()">💬 Buka WhatsApp</button></section>
+<footer>© 2026 Top Up Koins Game</footer>
+</div>
+<script>
+function copyNumber(){navigator.clipboard.writeText("085809833192").then(()=>{let x=document.getElementById("copied");x.style.display="block";setTimeout(()=>x.style.display="none",1800)})}
+function openWA(){window.open("https://wa.me/6285809833192","_blank")}
+</script>
+</body></html>
